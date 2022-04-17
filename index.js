@@ -1,17 +1,20 @@
 // hello world //
 const express = require ("express");
 const app = express();
-
-
+const mysql = require('mysql');
+const routes = require("./routes");
+const sqlconnection = require("./model/sqlconnection");
 app.use(express.urlencoded({extended: true}));
 app.use(express.json())
+sqlconnection.connect();
 
 // set the view engine to ejs
-
-// use res.render to load up an ejs view file
 app.set('view engine', 'ejs');
 
-app.get("/",(req,res)=>{
+
+ // routes
+ 
+ app.get("/",(req,res)=>{
   res.render("pages/index");
 });
 
@@ -45,6 +48,10 @@ app.get("/about-us",(req,res)=>{
 app.get("/event",(req,res)=>{
   res.render("pages/event");
 });
+
+
+ // routes
+
 
 
 app.listen(3000,()=>{
