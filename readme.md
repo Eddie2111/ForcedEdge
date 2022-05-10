@@ -1,9 +1,9 @@
-### Documentation ###
+# Documentation #
 
 ## Models ##
 
-# nosqlconnection -> mongo connection defined [local]
-# sqlconnection -> mysql connection defined [local]
+## nosqlconnection -> mongo connection defined [local]
+## sqlconnection -> mysql connection defined [local]
 
 ## Views ##
 
@@ -25,10 +25,10 @@
 
 ## works done ##
 
-# core structure built for page routing
-# template rendering set
-# local mongodb connection
-# local mysql connection
-# access token has been defined [not tested]
-# multar has been defined
-# career logs data on local mongo  ->    event_career-> career
+### core structure built for page routing
+### template rendering set
+### local mongodb connection
+### local mysql connection
+### access token has been defined [not tested]
+### multar has been defined
+### career logs data on local mongo  ->  event_career-> career
