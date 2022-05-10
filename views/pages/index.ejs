@@ -1,1 +1,71 @@
-//not empty
+<%- include("../partials/head.ejs")%>
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-12">
+            <h1>Welcome to the Home Page</h1>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-12">
+            <p>
+                This is the home page.
+            </p>
+        </div>
+    </div>
+    <div class="flexbox-container">
+    <div class="card" style="width:24rem">
+    <form class="flexbox-child" method="post" action="/" name="form1">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input name="namef1" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Explain with details! </label>
+            <textarea name="messagef1" class="form-control" rows="3" id="exampleInputEmail1" ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" name="emailf1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" name="passwordf1" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>    
+
+    <div class="flexbox-child" style="width:24rem">
+        <form method="post" action="/" name="form1">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input name="namef1" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Explain with details! </label>
+                <textarea name="messagef1" class="form-control" rows="3" id="exampleInputEmail1" ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" name="emailf1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" name="passwordf1" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>    
+    </div>
+</div>
+
+

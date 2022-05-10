@@ -1,1 +1,54 @@
-//not empty
+<% //not empty%>
+
+<%- include("../partials/head")%>
+
+
+<br/><br/><br/>
+<div class="container">
+    
+<form action="/career" method="post" class="form">
+
+    <section class="section card">
+        <label>University : </label>
+        <input class="input" type="text" name="university" placeholder="university name">
+        </section>
+    <section class="section card">
+        <label>First name</label>
+        <input type="text" name="firstname" placeholder="first name">
+        <label>Last name</label>
+        <input type="text" name="lastname" placeholder="last name">
+        </section>
+    <section class="section card">
+        <label>Email</label>
+        <input type="text" name="email" placeholder="email">
+        <label>Phone</label>
+        <input type="text" name="phone" placeholder="phone">
+    </section>
+    <section class="section card">
+        <label>Current Location</label>
+        <input type="text" name="location" placeholder="location">
+        <label>Current Occupation</label>
+        <input type="text" name="job" placeholder="job">
+        <label>Education</label>
+        <input type="text" name="education" placeholder="Your education">
+    </section>
+    <section class="section card">
+        <label>Linkedin URL</label>
+        <input type="text" name="LinkedIn" placeholder="skills">
+        <label>Interested Department</label>
+        <input type="text" name="department" placeholder="select department">
+        <label>Tell us more about your chosen department</label>
+        <input type="text" name="moreabout" placeholder="Your opinion">
+        </section>  
+    <section class="section card">
+        <label>If you were reffered, by whom?</label>
+        <input type="text" name="reffered" placeholder="reffered">
+    </section>
+    <section class="section">
+        <label>Drop your profile photo </label>
+        <input type="file" id="img" name="cv" accept="image/*">
+    </section>
+    <section class="section">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </section>
+</div>
